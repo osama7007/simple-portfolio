@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/style.css" />
+		<title>osama saad</title>
+	</head>
+	<body>
+		<header class="header">
+			<div class="name">Osama Saad</div>
+			<nav class="navbar">
+				<ul class="list">
+					<li class="active">
+						<a href="#Aboout">About-me</a>
+					</li>
+					<li>
+						<a href="#projects">Projects</a>
+					</li>
+					<li>
+						<a href="#Feedback">Feedback</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<section id="About">
+			<div class="about-content">
+				<span
+					>Hello, i'm Osama Saad <br /><span class="web"> Web Developer</span>
+					<br />
+					Responsive webpage creator</span
+				>
+			</div>
+			<div class="logo">
+				<a href="https://github.com/osama7007" target="_blank"
+					><ion-icon class="logos" name="logo-github"></ion-icon
+				></a>
+				<a href="https://www.facebook.com/osama.saad.7731/" target="_blank"
+					><ion-icon class="logos" name="logo-facebook"></ion-icon
+				></a>
+				<a href="#"
+					><ion-icon
+						class="logos"
+						onclick="copyEmail()"
+						name="mail-open"
+					></ion-icon>
+					<input type="text" value="saadosama43@gmail.com" id="myInput"
+				/></a>
+			</div>
+			<a href="Osama Saad .pdf" target="_blank">
+				<button>display CV</button>
+			</a>
+			
+		</section>
+		<section id="projects">
+			<p>projects</p>
+			<div class="project-container">
+				<a href="https://github.com/osama7007/alarm-" target="_blank">
+					<div class="alarm effect">
+						<img src="photos/alarm.PNG" alt="alarm-photo" />
+						<span>Simple alarm</span>
+					</div>
+				</a>
+
+				<a href="https://github.com/osama7007/XO-game" target="_blank"
+					><div class="XO effect">
+						<img src="photos/XO.PNG" alt="XO-photo" />
+						<span>XO Game</span>
+					</div></a
+				>
+				<a href="https://github.com/osama7007/magical-navbar" target="_blank">
+					<div class="magic-navbar effect">
+						<img src="photos/navbar.PNG" alt="vav-photo" />
+						<span>Magical Navbar</span>
+					</div>
+				</a>
+				<a href="https://github.com/osama7007/table-generator-" target="_blank">
+					<div class="tabel effect">
+						<img src="photos/tabel.PNG" alt="table-photo" />
+						<span> Random table generator</span>
+					</div>
+				</a>
+			</div>
+		</section>
+		<section class="feedback">
+			<p>Any feedback will be appreciated</p>
+			<textarea
+				name="feedback"
+				id="feedback"
+				cols="80"
+				rows="20"
+				placeholder="write your observations"
+			></textarea>
+		</section>
+
+		<script src="js/portfolio.js"></script>
+		<script
+			type="module"
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+		></script>
+		<script
+			nomodule
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+		></script>
+	</body>
+</html>
